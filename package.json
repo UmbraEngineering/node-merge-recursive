@@ -1,0 +1,20 @@
+{
+  "name": "merge-recursive",
+  "version": "0.0.0",
+  "description": "A merge utility support recursive merges",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/UmbraEngineering/node-merge-recursive"
+  },
+  "keywords": [
+    "object",
+    "merge",
+    "recursive"
+  ],
+  "author": "James Brumond",
+  "license": "MIT"
+}
