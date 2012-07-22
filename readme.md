@@ -19,11 +19,19 @@ merge(
 // returns: { a: 'a', b: 'c', c: 'd' }
 
 // Recursive merge
-merge(
+merge.recursive(
 	{ o: { a: 'a', b: 'b' } },
 	{ o: { b: 'c', c: 'd' } }
 );
 // returns: { o: { a: 'a', b: 'c', c: 'd' } }
+
+// Selective merge
+merge.selective(
+	['a'],
+	{ a: 'a', b: 'b' },
+	{ a: 'c', b: 'd' }
+);
+// returns: { a: 'c', b: 'b' }
 ```
 
 ## MIT License
